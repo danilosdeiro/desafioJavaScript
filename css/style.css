@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background: #FFFFFF;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.carousel-container {
+    width: 80%; 
+    max-width: 1500px; 
+    margin: 20px auto; 
+    padding: 15px;
+    background-color: #f9f9f9; 
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden; 
+}
+
+div#carousel {
+    margin-bottom: 10px; 
+}
+
+div#carousel img { 
+    border-radius: 10px; 
+}
+
+
+div#carousel-title a {
+    text-decoration: none;
+}
+
+div#carousel-title  {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+#carousel-dots {
+    text-align: center; 
+    padding: 10px 0;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-dot.active {
+    background-color: #1351d8;
+}
+
+
+header ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+	display: inline-block;
+    padding-left: 0; 
+}
+
+header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+header div { 
+    display: inline;
+    vertical-align: middle;
+}
+
+header img.logo { 
+    vertical-align: middle; 
+}
+
+header nav { 
+    display: inline-block;
+    vertical-align: middle;
+    width: 80vw; 
+}
+
+header nav a {
+    color: #1351d8;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+header nav a:hover { 
+    color: #1b357e;
+    text-decoration: none;
+    font-weight: 900; 
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+
+main {
+    min-height: calc(100vh - 167px); 
+}
+
+nav#social { 
+    display: inline;
+    width: 80%;
+}
+
+nav#social ul img { 
+    width: 28px;
+}
+
+span.redesociais { 
+    color: #ffffff;
+    vertical-align: super;
+}
+
+footer {
+    background: #1B357E;
+    padding: 20px;
+    color: white;
+}
+
+footer div {
+    display: inline;
+    float: right;
+    margin-right: 40px;
+}
+
+
+button:hover {
+    background: #1b357e;
+}
+button {
+    background: #1351d8;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    header nav {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    .carousel-container {
+        width: 95%;
+    }
+    footer {
+        text-align: center;
+    }
+    footer div {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+    nav#social {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    nav#social ul li {
+        margin: 0 5px;
+    }
+}
