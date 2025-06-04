@@ -77,8 +77,8 @@ function UpdateCompareTable() {
         return `R$ ${price.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
     };
 
-    document.getElementById("compare_image_0").innerHTML = `<img src="img/${car1.image}" alt="${car1.nome}" style="width:150px; height:auto; border-radius: 8px;">`;
-    document.getElementById("compare_image_1").innerHTML = `<img src="img/${car2.image}" alt="${car2.nome}" style="width:150px; height:auto; border-radius: 8px;">`;
+    // document.getElementById("compare_image_0").innerHTML = `<img src="img/${car1.image}" alt="${car1.nome}" style="width:150px; height:auto; border-radius: 8px;">`;
+    // document.getElementById("compare_image_1").innerHTML = `<img src="img/${car2.image}" alt="${car2.nome}" style="width:150px; height:auto; border-radius: 8px;">`;
 
     document.getElementById("compare_modelo_0").innerText = car1.nome;
     document.getElementById("compare_modelo_1").innerText = car2.nome;
