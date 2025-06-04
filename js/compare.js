@@ -1,13 +1,9 @@
-// compare.js
-
-// Array para armazenar os carros selecionados para comparação (máximo 2)
 let carArr = [];
 
-// Classe Car
 class Car {
     constructor(nome, preco, alturaCacamba, alturaVeiculo, alturaSolo, capacidadeCarga, motor, potencia, volumeCacamba, roda, image) {
         this.nome = nome;
-        this.preco = preco; // Manter como número para formatação posterior se necessário
+        this.preco = preco;
         this.alturaCacamba = alturaCacamba;
         this.alturaVeiculo = alturaVeiculo;
         this.alturaSolo = alturaSolo;
