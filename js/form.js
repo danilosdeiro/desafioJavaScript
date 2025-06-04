@@ -66,7 +66,7 @@ function showCustomFormAlert(message) {
     alertBox.style.zIndex = '10001';
     alertBox.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
     alertBox.style.textAlign = 'center';
-    alertBox.style.fontSize = '1em';
+    alertBox.style.fontSize = '16px';
 
     alertBox.innerText = message; 
 
